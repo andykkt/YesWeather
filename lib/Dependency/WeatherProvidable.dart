@@ -1,4 +1,4 @@
-import 'package:yesweather/Modules/Weather/Model/WeatherModel.dart';
+import 'package:yesweather/modules/weather/model/WeatherModel.dart';
 import 'dart:async';
 
 abstract class WeatherProvidable {
