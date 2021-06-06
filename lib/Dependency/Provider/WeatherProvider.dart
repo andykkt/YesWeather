@@ -5,7 +5,7 @@ import 'package:yesweather/modules/weather/model/WeatherModel.dart';
 import 'package:yesweather/dependency/WeatherProvidable.dart';
 
 class WeatherProvider extends WeatherProvidable {
-  static const String APPID = "4726dda696c4b27ad07161ba167b25dd";
+  static const String APPID = "<APIKEY>";
 
   Future<WeatherModel> getWeather({String latitude, String longitude}) async {
     final response = await http.get(
