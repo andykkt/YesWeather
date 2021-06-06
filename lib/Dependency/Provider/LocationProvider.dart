@@ -13,7 +13,9 @@ class LocationProvider extends LocationProvidable {
 
   // Constructor
 
-  LocationProvider() {}
+  LocationProvider() {
+    initLocationStream();
+  }
 
   void initLocationStream() async {
     bool _serviceEnabled;
