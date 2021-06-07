@@ -21,7 +21,7 @@ class AppRoutes {
         {
           return MaterialPageRoute<void>(
             settings: routeSettings,
-            builder: (BuildContext context) => Weather(),
+            builder: (BuildContext context) => Weather(context),
             fullscreenDialog: true,
           );
         }
